@@ -1,3 +1,10 @@
+/***********************************************************************
+*	COSC1254 - PROGRAMMING USING C++
+*	SEMESTER 2 2017
+*	ASSIGNMENT 2 - ENGLISH DRAUGHTS
+*	NAME:		JOSHUA HANSEN
+*	STUDENT NUMBER: S3589185
+************************************************************************/
 #include "ncview/ui.h"
 #include "nc_controller/controller.h"
 #include "model/model.h"

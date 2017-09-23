@@ -1,2 +1,2 @@
 # englishdraughts
-English Draughts game
+English Draughts game using a MVC design pattern
