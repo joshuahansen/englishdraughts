@@ -13,6 +13,7 @@
 #include <map>
 #include <thread>
 #include <chrono>
+#include "player.h"
 
 #pragma once
 
@@ -26,6 +27,7 @@ namespace draughts
 
             model(void);
             bool player_exists(const std::string&);
+	    std::vector<player::player> players;
 
             public:
             void start_game(int, int);

@@ -39,7 +39,15 @@ int draughts::model::model::get_winner()
 
 std::string draughts::model::model::get_player_name(int id)
 {
-    return "";
+	std::string player_name;
+	for(int i = 0; i < players.size(); ++i)
+	{
+		if(players[i].player::player::get_id() == id)
+		{
+			player_name = players[i].player::player::get_name();
+		}
+	}
+    return player_name;
 }
 
 char draughts::model::model::get_token(int x ,int y)
@@ -54,10 +62,21 @@ void draughts::model::model::make_move(int playernum,
 
 void draughts::model::model::add_player(const std::string& p)
 {
+	player_exists(p);
+	player::player new_player(p);
+	players.push_back(new_player);
+
 }
 
 bool draughts::model::model::player_exists(const std::string& pname)
 {
+	for(int i = 0; i < players.size(); ++i)
+	{
+		if(players[i].player::player::get_name() == pname)
+		{
+			return true;
+		}
+	}
     return false;
 }
 
