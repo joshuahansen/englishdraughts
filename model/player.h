@@ -2,8 +2,8 @@
 *	COSC1254 - PROGRAMMING USING C++
 *	SEMESTER 2 2017
 *	ASSIGNMENT 2 - ENGLISH DRAUGHTS
-*	AUTHOURS:		JOSHUA HANSEN, ADAM YOUNG
-*	STUDENT NUMBERS: S3589185 S3564209
+*	AUTHOURS:		JOSHUA HANSEN
+*	STUDENT NUMBERS: S3589185
 ************************************************************************/
 #include <vector>
 #include <memory>

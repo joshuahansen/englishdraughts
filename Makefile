@@ -1,8 +1,8 @@
 ########################################################################
 # C++ Programming
 # Semester 2 2017 Assignment #2
-# Full Name        : Adam Young & Joshua Hansen
-# Student Number   : s3564209 & s3589185
+# Full Name        : Joshua Hansen
+# Student Number   : s3589185
 ########################################################################
 
 CXX = g++
