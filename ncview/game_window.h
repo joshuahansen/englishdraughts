@@ -1,10 +1,3 @@
-/***********************************************************************
-*	COSC1254 - PROGRAMMING USING C++
-*	SEMESTER 2 2017
-*	ASSIGNMENT 2 - ENGLISH DRAUGHTS
-*	NAME:		JOSHUA HANSEN
-*	STUDENT NUMBER: S3589185
-************************************************************************/
 #include "window.h"
 #include <map>
 #include <string>
@@ -31,6 +24,7 @@ namespace draughts
             
             public:
                 game_window(const player_pair&);
+		void set_quit_game(void);
                 virtual void activate(void) override;
                 void display_board(void);
                 virtual ~game_window(void){}
